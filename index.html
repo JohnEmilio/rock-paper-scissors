@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css"> 
+  <title>Rock, Paper, Scissors</title>
+</head>
+<body>
+  <div class="wrapper"> 
+
+    <header>
+      <div class="headerLogo">
+        <img src="./images/logo.svg" alt="logo"/>
+      </div>
+      <div class="scoreContainer">
+        <span class="scoreHeading">Score</span>
+        <h3 class="scoreNum"></h3>
+      </div>
+    </header>
+
+    <div class="mainContainer">
+      <div class="lineTop line"></div>
+      <div class="lineLeft line"></div>
+      <div class="lineRight line"></div>
+
+      <a class="paperBtn choiceBtn" href="./winner.html">
+        <div class="paperWrapper">
+          <div class="paper choices">
+            <img src="./images/icon-paper.svg" alt="paper"/>
+          </div>
+        </div>
+      </a>
+
+      <a class="scissorsBtn choiceBtn" href="./winner.html">
+        <div class="scissorsWrapper">
+          <div class="scissors choices">
+            <img src="./images/icon-scissors.svg" alt="scissors"/>
+          </div>
+        </div>
+      </a>
+
+      <a class="rockBtn choiceBtn" href="./winner.html">
+        <div class="rockWrapper">
+          <div class="rock choices">
+            <img src="./images/icon-rock.svg" alt="rock"/>
+          </div>
+        </div>
+      </a>
+
+    </div>
+
+    <button class="rules">
+      Rules
+    </button>
+
+    <div class="rulesWrapper" hidden>
+      <div class="rulesDiv">
+        <div class="rulesHeader">
+          <h1>Rules</h1>
+          <img src="./images/icon-close.svg" alt="close button" class="rulesCloseBtn"/>
+        </div>
+        <img src="./images/image-rules.svg" alt="rules" />
+      </div>
+    </div>
+  </div>
+  <script src="./main.js" type="application/javascript"></script>
+</body>
+</html>

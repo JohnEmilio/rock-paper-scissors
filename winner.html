@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css"> 
+  <title>Rock, Paper, Scissors</title>
+</head>
+<body>
+  <div class="wrapper"> 
+
+    <header>
+      <div class="headerLogo">
+        <img src="./images/logo.svg" alt="logo"/>
+      </div>
+      <div class="scoreContainer">
+        <span class="scoreHeading">Score</span>
+        <h3 class="scoreNum"></h3>
+      </div>
+    </header>
+
+    <div class="mainContainerWinner">
+
+      <a class="choiceBtn playerChoiceBtn">
+        <div class="playerChoiceWrapper">
+          <div class="choices playerChoice">
+            <img src="" alt="" class="playerChoiceImg"/>
+          </div>
+        </div>
+        <h2 class="btnHeader">You picked</h2>
+      </a>
+
+      <a class="choiceBtn botChoiceBtn">
+        <div class="botChoiceWrapper">
+          <div class=" choices botChoice">
+            <img src="" alt="" class="botChoiceImg"/>
+          </div>
+        </div>
+        <h2 class="btnHeader">The House picked</h2>
+      </a>
+    </div>
+      
+    <div class="winLoseWrapper">
+          <h2 class="winLoseHeader"></h2>
+          <a class="winLoseBtn" href="./index.html">Play Again</a>
+    </div>
+
+
+    <button class="rules">
+      Rules
+    </button>
+    <div class="rulesWrapper" hidden>
+      <div class="rulesDiv">
+        <div class="rulesHeader">
+          <h1>Rules</h1>
+          <img src="./images/icon-close.svg" alt="close button" class="rulesCloseBtn"/>
+        </div>
+        <img src="./images/image-rules.svg" alt="rules" />
+      </div>
+    </div>
+  </div>
+  <script src="./winner.js" type="application/javascript"></script>
+  <script src="./main.js" type="application/javascript"></script>
+</body>
+</html>
