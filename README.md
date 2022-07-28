@@ -1,7 +1,7 @@
 # Rock, Paper, Scissors
 A classic hand-held game typically played between you and your best friend, now available to play against a computer opponent. One of my favorite games to decide who gets to sit in the front seat, or who decides what's for dinner, rock, paper, scissors will always be a timeless classic in my eyes.
 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
+**Link to project:** https://extremerps.netlify.app/
 
 ![alt tag](https://media.giphy.com/media/1fUTz3weggxOBFZkb6/giphy.gif)
 

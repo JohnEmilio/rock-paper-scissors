@@ -56,7 +56,6 @@
       bot.classList.add('scissors')
     }
     calcWinner(pChoice, hChoice)
-    // updateScore()
 
   }
 
@@ -71,15 +70,9 @@
     ) {
       winLoseHeader.innerText = "You Win!"
         console.log("Player Wins!", pChoice, cChoice)
-        // updateScore()
     }
     else {
         winLoseHeader.innerText = "You Lose!"
         console.log("Computer Wins!", pChoice, cChoice)
     }
 }
-// function updateScore (){
-//     let points = Number(sessionStorage.score)
-//     points++
-//     document.querySelector(".scoreNum").innerText = points
-// }
